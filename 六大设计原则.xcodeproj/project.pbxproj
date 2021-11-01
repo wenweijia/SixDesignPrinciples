@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB7F9715272A5509002C95AC /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F9714272A5508002C95AC /* Employee.swift */; };
+		FB8503E92726C37D0028E03D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8503E82726C37D0028E03D /* main.swift */; };
+		FB8503F12726C3E90028E03D /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8503F02726C3E90028E03D /* Role.swift */; };
+		FB8912C2272BD30C0045A805 /* Traveler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8912C1272BD30C0045A805 /* Traveler.swift */; };
+		FB8912C4272BD3AC0045A805 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8912C3272BD3AC0045A805 /* Hotel.swift */; };
+		FB8912C7272BF9310045A805 /* IT.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8912C6272BF9310045A805 /* IT.swift */; };
+		FB8912C9272BFD420045A805 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8912C8272BFD420045A805 /* Company.swift */; };
+		FB95D4EF272F881800CA76D1 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB95D4EE272F881800CA76D1 /* House.swift */; };
+		FB964E742727DE4D0056384C /* ActionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB964E732727DE4D0056384C /* ActionManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB8503E32726C37D0028E03D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FB7F9714272A5508002C95AC /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		FB8503E52726C37D0028E03D /* 六大设计原则 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "六大设计原则"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8503E82726C37D0028E03D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FB8503F02726C3E90028E03D /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
+		FB8912C1272BD30C0045A805 /* Traveler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traveler.swift; sourceTree = "<group>"; };
+		FB8912C3272BD3AC0045A805 /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		FB8912C6272BF9310045A805 /* IT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IT.swift; sourceTree = "<group>"; };
+		FB8912C8272BFD420045A805 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		FB95D4EE272F881800CA76D1 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		FB964E732727DE4D0056384C /* ActionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB8503E22726C37D0028E03D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB7F9713272A539E002C95AC /* 里氏替换原则 */ = {
+			isa = PBXGroup;
+			children = (
+				FB7F9714272A5508002C95AC /* Employee.swift */,
+			);
+			path = "里氏替换原则";
+			sourceTree = "<group>";
+		};
+		FB8503DC2726C37D0028E03D = {
+			isa = PBXGroup;
+			children = (
+				FB8503E72726C37D0028E03D /* 六大设计原则 */,
+				FB8503E62726C37D0028E03D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB8503E62726C37D0028E03D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB8503E52726C37D0028E03D /* 六大设计原则 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB8503E72726C37D0028E03D /* 六大设计原则 */ = {
+			isa = PBXGroup;
+			children = (
+				FB95D4ED272F847900CA76D1 /* 迪米特法则 */,
+				FB8912C5272BF8DC0045A805 /* 接口隔离原则 */,
+				FB8912C0272BC7A80045A805 /* 依赖倒置原则 */,
+				FB7F9713272A539E002C95AC /* 里氏替换原则 */,
+				FB964E702727DCF50056384C /* 开闭原则 */,
+				FB8503EF2726C39E0028E03D /* 单一职责原则 */,
+				FB8503E82726C37D0028E03D /* main.swift */,
+			);
+			path = "六大设计原则";
+			sourceTree = "<group>";
+		};
+		FB8503EF2726C39E0028E03D /* 单一职责原则 */ = {
+			isa = PBXGroup;
+			children = (
+				FB8503F02726C3E90028E03D /* Role.swift */,
+			);
+			path = "单一职责原则";
+			sourceTree = "<group>";
+		};
+		FB8912C0272BC7A80045A805 /* 依赖倒置原则 */ = {
+			isa = PBXGroup;
+			children = (
+				FB8912C1272BD30C0045A805 /* Traveler.swift */,
+				FB8912C3272BD3AC0045A805 /* Hotel.swift */,
+			);
+			path = "依赖倒置原则";
+			sourceTree = "<group>";
+		};
+		FB8912C5272BF8DC0045A805 /* 接口隔离原则 */ = {
+			isa = PBXGroup;
+			children = (
+				FB8912C6272BF9310045A805 /* IT.swift */,
+				FB8912C8272BFD420045A805 /* Company.swift */,
+			);
+			path = "接口隔离原则";
+			sourceTree = "<group>";
+		};
+		FB95D4ED272F847900CA76D1 /* 迪米特法则 */ = {
+			isa = PBXGroup;
+			children = (
+				FB95D4EE272F881800CA76D1 /* House.swift */,
+			);
+			path = "迪米特法则";
+			sourceTree = "<group>";
+		};
+		FB964E702727DCF50056384C /* 开闭原则 */ = {
+			isa = PBXGroup;
+			children = (
+				FB964E732727DE4D0056384C /* ActionManager.swift */,
+			);
+			path = "开闭原则";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB8503E42726C37D0028E03D /* 六大设计原则 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8503EC2726C37D0028E03D /* Build configuration list for PBXNativeTarget "六大设计原则" */;
+			buildPhases = (
+				FB8503E12726C37D0028E03D /* Sources */,
+				FB8503E22726C37D0028E03D /* Frameworks */,
+				FB8503E32726C37D0028E03D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "六大设计原则";
+			productName = "六大设计原则";
+			productReference = FB8503E52726C37D0028E03D /* 六大设计原则 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB8503DD2726C37D0028E03D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					FB8503E42726C37D0028E03D = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = FB8503E02726C37D0028E03D /* Build configuration list for PBXProject "六大设计原则" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB8503DC2726C37D0028E03D;
+			productRefGroup = FB8503E62726C37D0028E03D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB8503E42726C37D0028E03D /* 六大设计原则 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB8503E12726C37D0028E03D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8912C2272BD30C0045A805 /* Traveler.swift in Sources */,
+				FB8503E92726C37D0028E03D /* main.swift in Sources */,
+				FB7F9715272A5509002C95AC /* Employee.swift in Sources */,
+				FB8912C7272BF9310045A805 /* IT.swift in Sources */,
+				FB95D4EF272F881800CA76D1 /* House.swift in Sources */,
+				FB8503F12726C3E90028E03D /* Role.swift in Sources */,
+				FB8912C4272BD3AC0045A805 /* Hotel.swift in Sources */,
+				FB964E742727DE4D0056384C /* ActionManager.swift in Sources */,
+				FB8912C9272BFD420045A805 /* Company.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FB8503EA2726C37D0028E03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB8503EB2726C37D0028E03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FB8503ED2726C37D0028E03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9C27SR9Z2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FB8503EE2726C37D0028E03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9C27SR9Z2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB8503E02726C37D0028E03D /* Build configuration list for PBXProject "六大设计原则" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8503EA2726C37D0028E03D /* Debug */,
+				FB8503EB2726C37D0028E03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8503EC2726C37D0028E03D /* Build configuration list for PBXNativeTarget "六大设计原则" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8503ED2726C37D0028E03D /* Debug */,
+				FB8503EE2726C37D0028E03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB8503DD2726C37D0028E03D /* Project object */;
+}
